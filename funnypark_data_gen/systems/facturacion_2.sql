@@ -1,16 +1,16 @@
-CREATE TABLE Cat (
+CREATE TABLE Categoria (
     cod_cat INT PRIMARY KEY,
     descripcion VARCHAR(50)
 );
 
-CREATE TABLE Subcat (
+CREATE TABLE Subcategoria (
     cod_subcat INT PRIMARY KEY,
     cod_cat INT,
     desc VARCHAR(50),
     FOREIGN KEY (cod_cat) REFERENCES Cat(cod_cat)
 );
 
-CREATE TABLE Prod (
+CREATE TABLE Producto (
     cod_prod INT PRIMARY KEY,
     cod_subcat INT,
     desc VARCHAR(100),
