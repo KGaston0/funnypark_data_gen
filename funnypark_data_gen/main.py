@@ -11,7 +11,7 @@ from generator.data_generator import (
     generar_item_venta_csv,
     generar_telefonos_escuela_csv,
     generar_tipo_visita_csv,
-    generar_ventas_csv
+    generar_ventas_csv, generar_telefonos_empleado_csv
 )
 
 def load_sql_file(path):
@@ -57,3 +57,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    legajos = generar_empleados_csv("output/rrhh/empleado.csv", num_empleados=100)
+    generar_telefonos_empleado_csv("output/rrhh/telefono_empleado.csv", legajos, telefonos_por_empleado=2)

@@ -1,0 +1,101 @@
+id,nombre,apellido,direccion,sueldo,horas_capacitacion,fecha_ingreso,id_local
+1,Lucas,Rodríguez,Av. Belgrano N° 384,19399.17,147,2017-04-22,8
+2,María,Gómez,Calle J.J. Castelli N° 6224,42470.22,62,2023-04-06,10
+3,Lucas,Sánchez,Avenida Santa Rosa N° 221,7222.75,1,2024-12-04,1
+4,Camila,Gómez,Av. Salta N° 75,20992.17,136,2020-07-01,10
+5,Mateo,Gómez,Avenida 126 Bis N° 8835,16119.93,175,2016-02-11,5
+6,Lucas,García,Boulevard 9 N° 592,17358.79,157,2017-12-11,10
+7,Camila,Fernández,Avenida 9 N° 8439,3929.66,131,2015-12-02,7
+8,Juan,García,Av. Catamarca N° 6220,45777.77,40,2017-09-27,2
+9,Pedro,Pérez,Camino Misiones N° 726,41724.61,108,2023-03-14,9
+10,Mateo,Gómez,Camino 9 N° 884,44433.02,136,2016-03-21,8
+11,Juan,Fernández,Blv. Ciudad Autónoma de Buenos Aires N° 57,28421.17,53,2016-02-10,1
+12,María,Fernández,Av. San Luis N° 9818,48889.55,133,2025-02-09,5
+13,Mateo,Rodríguez,Diag. 8 N° 33,24762.2,8,2022-06-16,2
+14,Camila,Martínez,Diagonal J.J. Castelli N° 838,8170.59,30,2016-04-18,7
+15,Sofía,García,Diagonal Paraná N° 5627,4850.26,93,2023-05-10,2
+16,Pedro,Martínez,Calle Pte. Perón N° 3211,43336.92,127,2021-07-15,6
+17,Juan,Sánchez,Calle 152 Bis N° 529,48200.65,79,2022-12-20,3
+18,María,Fernández,Avenida J.B. Alberdi N° 4268,2969.75,65,2023-05-28,9
+19,Lucas,Gómez,Diagonal Omar Nuñez N° 294,7361.93,175,2023-02-25,7
+20,Mateo,Fernández,Calle Neuquén N° 31,19071.88,110,2019-10-29,8
+21,María,Gómez,Av. 2 N° 134,34977.07,136,2020-07-24,8
+22,Camila,Sánchez,Boulevard Pte. Perón N° 21,21075.2,40,2023-09-08,9
+23,Camila,Pérez,Av. 4 N° 47,19707.52,172,2016-03-19,8
+24,Luis,Rodríguez,Av. 4 N° 492,3732.69,177,2017-03-20,1
+25,Mateo,Fernández,Calle Pte. Perón N° 93,44037.51,166,2024-01-19,10
+26,Luis,Rodríguez,Av. Santa Fe N° 399,32032.07,28,2018-04-07,5
+27,Camila,Sánchez,Av. Santa Cruz N° 412,33453.27,23,2016-12-30,2
+28,Mateo,Rodríguez,Av. Neuquén N° 8536,4185.23,37,2021-07-10,4
+29,Luis,Rodríguez,Calle Belgrano N° 5451,21102.61,138,2021-06-12,8
+30,Luis,Pérez,Avenida 6 N° 650,26676.93,82,2025-02-18,10
+31,Valentina,García,Avenida Belgrano N° 7837,25075.77,187,2021-12-04,2
+32,Ana,López,Calle Córdoba N° 623,38966.21,52,2020-04-08,8
+33,Luis,Gómez,Av. Santa Fe N° 5399,46469.94,114,2016-05-28,2
+34,Lucas,Pérez,Av. Omar Nuñez N° 192,45895.06,138,2015-10-20,7
+35,Juan,Gómez,Diagonal Córdoba N° 414,46114.9,47,2017-08-21,10
+36,Luis,Pérez,Diagonal Viedma N° 424,42015.41,25,2024-08-01,2
+37,Pedro,López,Avenida 6 N° 984,41834.13,162,2023-05-12,3
+38,María,Gómez,Camino 9 N° 15,39660.19,143,2018-10-28,10
+39,Luis,Fernández,Av. La Rioja N° 8810,25968.93,188,2022-03-03,4
+40,Mateo,Rodríguez,Blv. Rivadavia N° 45,17810.05,151,2019-12-07,5
+41,Camila,Gómez,Avenida 6 N° 347,31674.69,35,2021-02-26,5
+42,Lucas,Sánchez,Boulevard Resistencia N° 765,9963.53,96,2017-05-03,8
+43,Luis,Fernández,Av. Ciudad Autónoma de Buenos Aires N° 8330,43750.24,160,2016-03-29,1
+44,Juan,Sánchez,Boulevard San Martin N° 118,49768.02,101,2018-03-25,5
+45,Juan,López,Camino Omar Nuñez N° 39,2211.31,7,2016-01-25,1
+46,Lucas,Martínez,Av. 3 N° 793,26299.99,31,2016-03-04,7
+47,Camila,Gómez,Calle Alvear N° 1941,25292.37,67,2022-07-20,2
+48,Juan,Martínez,Avenida 1 N° 9953,25805.32,96,2021-06-13,3
+49,Pedro,Fernández,Avenida Jujuy N° 9153,30887.83,56,2019-10-13,2
+50,Mateo,García,Boulevard Posadas N° 168,36672.21,109,2020-07-10,5
+51,Luis,Rodríguez,Av. San Martin N° 960,8443.24,85,2021-12-18,4
+52,Pedro,Sánchez,Diagonal San Juan N° 798,39131.47,11,2022-07-25,3
+53,Valentina,Sánchez,Camino Santiago del Estero N° 327,31232.39,73,2021-03-14,10
+54,Mateo,Rodríguez,Av. La Rioja N° 9368,48205.38,172,2021-03-13,6
+55,Camila,Gómez,Diagonal 1 N° 797,26501.07,127,2021-08-10,3
+56,Valentina,López,Blv. Santiago del Estero N° 57,47217.63,49,2019-08-20,8
+57,Mateo,Gómez,Avenida Córdoba N° 351,4781.44,74,2016-08-26,1
+58,Valentina,Fernández,Avenida Catamarca N° 426,12975.18,116,2017-09-15,8
+59,Valentina,Pérez,Av. 7 N° 46,22215.56,114,2024-03-21,5
+60,Pedro,García,Diagonal Chubut N° 877,24039.55,98,2016-08-27,3
+61,Mateo,Sánchez,Calle 3 N° 692,4420.49,88,2020-04-07,2
+62,María,Fernández,Av. Chilecito N° 389,40838.17,186,2022-08-14,4
+63,Pedro,Sánchez,Av. Saavedra N° 67,24220.25,102,2024-07-22,3
+64,María,Gómez,Av. Posadas N° 91,4261.84,161,2023-11-03,2
+65,Mateo,López,Avenida Paraná N° 8774,39170.39,140,2016-11-01,10
+66,Valentina,Fernández,Avenida 1 N° 2530,43282.75,94,2017-06-21,1
+67,Juan,Fernández,Diagonal Santiago del Estero N° 566,13212.92,22,2024-11-25,5
+68,Pedro,Fernández,Av. Santa Fe N° 976,29353.65,94,2021-10-29,8
+69,María,García,Av. Rosario N° 24,45992.21,167,2018-05-22,10
+70,Valentina,Martínez,Diag. San Martin N° 671,22318.62,39,2019-06-30,2
+71,Luis,García,Boulevard G. Brown N° 272,19067.4,132,2018-02-04,3
+72,Mateo,Sánchez,Calle Neuquén N° 1181,47218.8,59,2020-01-12,4
+73,Mateo,Martínez,Av. 6 N° 6263,44636.82,52,2021-08-29,3
+74,Luis,López,Diagonal Chubut N° 5087,9808.85,179,2019-07-28,1
+75,Juan,Gómez,Blv. J.J. Castelli N° 513,31405.4,22,2022-08-14,5
+76,Sofía,López,Diag. Malvinas Argentinas N° 250,44602.41,73,2017-01-30,1
+77,Luis,Martínez,Av. Santiago del Estero N° 941,29483.73,160,2019-11-03,5
+78,Luis,Sánchez,Avenida Catamarca N° 134,22426.92,199,2022-01-08,9
+79,Lucas,Pérez,Calle 8 N° 1040,14701.02,112,2021-11-23,6
+80,María,López,Camino 4 N° 2863,3788.84,165,2018-09-14,1
+81,Lucas,Pérez,Avenida Mendoza N° 724,12580.18,52,2015-09-10,4
+82,Juan,Gómez,Calle J.B. Alberdi N° 326,33765.19,166,2015-10-27,6
+83,Valentina,Fernández,Diagonal J.J. Castelli N° 448,1901.84,142,2022-02-05,4
+84,Lucas,Martínez,Av. Güemes N° 932,14023.37,85,2019-08-21,5
+85,Camila,López,Calle La Pampa N° 3241,18204.94,64,2017-10-29,8
+86,Lucas,García,Boulevard G. Brown N° 470,22278.1,190,2019-11-06,6
+87,Luis,López,Calle 181 A N° 49,48363.15,58,2024-07-17,9
+88,Sofía,Gómez,Diag. 4 N° 247,17967.92,64,2023-09-25,4
+89,Luis,Pérez,Calle 181 Bis N° 65,5914.93,44,2020-06-15,6
+90,Mateo,Sánchez,Calle Belgrano N° 614,28493.01,8,2023-04-07,6
+91,Pedro,Rodríguez,Av. San Juan N° 716,26349.87,89,2019-10-08,6
+92,Juan,Fernández,Avenida Tucumán N° 885,14344.2,153,2022-06-20,7
+93,Mateo,Sánchez,Avenida 120 B N° 651,33916.46,110,2015-09-26,1
+94,Lucas,Rodríguez,Blv. 139 Bis N° 8824,49114.3,32,2022-05-11,8
+95,María,Sánchez,Calle Comodoro Rivadavia N° 355,8792.76,177,2016-09-19,10
+96,Juan,Fernández,Av. Rawson N° 6722,8193.78,29,2023-05-25,1
+97,María,Rodríguez,Diag. Neuquén N° 7331,3544.15,34,2020-04-26,4
+98,Ana,Gómez,Camino Corrientes N° 988,3118.13,39,2022-12-10,10
+99,Juan,García,Diagonal 1 N° 181,17913.11,26,2023-11-05,2
+100,Juan,Pérez,Avenida Rawson N° 18,40568.16,77,2020-09-12,8
