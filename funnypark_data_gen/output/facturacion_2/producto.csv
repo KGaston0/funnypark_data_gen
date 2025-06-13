@@ -1,101 +1,101 @@
-cod_prod,cod_subcat,desc,precio_actual
-22,33,facere,46626.32
-65,42,repellat,32492.4
-52,60,ullam,7187.08
-94,54,dolore,11105.52
-71,98,dolorum,43487.16
-33,89,iure,24537.84
-38,93,adipisci,30389.27
-75,49,soluta,17403.57
-84,71,vero,36239.43
-82,63,fuga,31443.22
-38,14,qui,30713.04
-21,1,commodi,47838.7
-39,54,doloremq,19280.9
-43,7,omnis,16549.29
-99,74,facere,24251.89
-21,84,voluptat,6345.46
-77,37,exercita,42064.94
-98,12,in,9449.88
-47,97,aspernat,20713.26
-46,5,voluptat,46382.22
-3,33,voluptat,35103.92
-8,2,cumque,46187.13
-60,25,incidunt,35104.22
-30,86,eos,43740.53
-22,22,minus,11665.62
-66,19,qui,31606.26
-62,63,distinct,43886.81
-72,25,odio,29157.76
-75,85,debitis,26778.18
-99,18,architec,46370.41
-40,28,minima,28757.95
-65,37,quam,39947.86
-56,81,autem,8367.44
-11,97,dicta,41394.71
-86,72,blanditi,17718.51
-93,44,architec,35772.44
-14,56,beatae,3255.99
-51,46,omnis,2960.45
-40,65,atque,29064.9
-93,46,ipsa,48914.75
-30,82,quae,28792.34
-91,76,labore,6204.14
-43,44,exercita,14193.12
-9,44,iusto,46762.0
-59,44,ex,34899.72
-73,90,ratione,35391.13
-44,26,iusto,29963.07
-27,78,providen,46936.91
-6,61,quaerat,43593.73
-39,56,ducimus,20332.18
-32,27,aspernat,34018.5
-64,7,voluptat,33289.28
-55,55,reprehen,19052.31
-68,27,pariatur,21195.28
-65,70,incidunt,5764.5
-73,43,voluptat,12408.03
-25,98,aut,43286.77
-93,73,aut,4199.2
-12,11,maiores,15303.29
-60,74,accusamu,18361.24
-30,25,ea,17457.24
-33,37,cupidita,22433.11
-19,42,incidunt,42320.99
-37,85,nesciunt,26511.22
-79,89,esse,3517.93
-80,54,repellat,6716.9
-30,81,ipsum,43867.37
-60,31,voluptat,11716.16
-64,48,impedit,39395.14
-66,52,tempore,15596.97
-95,13,odit,9101.69
-3,76,harum,24791.11
-93,96,nulla,28821.9
-90,90,unde,38943.02
-71,44,iure,17628.01
-84,29,blanditi,43646.51
-13,16,cumque,10189.45
-10,73,sed,2012.84
-67,71,repudian,6092.12
-45,94,suscipit,3121.33
-2,48,aspernat,12868.93
-91,21,recusand,6738.32
-34,72,labore,45573.32
-51,7,nulla,2699.59
-82,78,delectus,24828.13
-75,62,corporis,41355.06
-45,43,expedita,20854.62
-49,99,non,32217.15
-76,64,sit,28786.46
-49,55,quia,44231.23
-41,7,exercita,23101.79
-9,17,ad,38848.46
-71,11,quibusda,33774.91
-74,21,pariatur,6775.3
-72,49,nisi,43559.87
-18,7,iusto,46947.7
-46,55,facere,3533.47
-82,86,molestia,8396.85
-64,52,maxime,19859.03
-98,62,quisquam,26667.7
+id_producto,id_subcategoria,descripcion,precio_actual
+0,0,Protector de Pantalla,8490.81
+1,13,Cuaderno A5,35965.89
+2,3,Bombilla Premium,38376.0
+3,3,Mochila Urbana,34588.4
+4,1,Juego de Ollas,41613.59
+5,15,Cuaderno de Dibujo,36189.92
+6,7,Calefactor Cerámico,31033.85
+7,13,Gorra Bordada,33674.76
+8,8,Colcha Reversible,26241.01
+9,3,Zapatos de Cuero,13981.81
+10,15,Zapatillas Running,32312.06
+11,10,Azucarera Vintage,3991.08
+12,9,Camiseta Deportiva,6893.05
+13,7,Micrófono USB,3429.25
+14,19,Bufanda Polar,43058.56
+15,1,Jarra Eléctrica,32357.25
+16,15,Sweater de Lana,44410.41
+17,6,Cargador Rápido,31170.91
+18,6,Freidora de Aire,32590.28
+19,15,Taza Decorada,30423.6
+20,14,Juego de Sábanas,1647.82
+21,1,Pantalón Chino,36187.89
+22,2,Medias Algodón,45423.73
+23,14,Camiseta Básica,4570.01
+24,9,Plancha a Vapor,25674.66
+25,13,Reloj Inteligente,21924.88
+26,8,Lentes de Sol,42623.74
+27,7,Trípode Ajustable,4483.82
+28,16,Agenda 2024,29199.7
+29,12,Almohada Viscoelástica,15701.47
+30,19,Cámara Web HD,24566.04
+31,4,Sandalias Urbanas,6729.67
+32,16,Botines Outdoor,12168.45
+33,17,Adaptador HDMI,12888.61
+34,12,Purificador de Aire,34624.8
+35,1,Camisa Formal,36462.95
+36,15,Cable USB-C,9626.27
+37,19,Mate Imperial,10250.37
+38,2,Enchufe WiFi,21487.82
+39,19,Router Dual Band,14629.03
+40,15,Cinta Métrica,24615.63
+41,19,Libro de Notas,2401.31
+42,10,Lámpara LED,17941.42
+43,12,Taladro Eléctrico,27818.58
+44,17,Auriculares Bluetooth,6284.87
+45,7,Lapicera Gel,33369.1
+46,10,Botella Térmica,20318.31
+47,8,Cartera de Cuero,35259.25
+48,10,Cinturón Casual,3573.91
+49,13,Agenda Escolar,28981.36
+50,15,Foco Inteligente,12183.49
+51,1,Blusa Estampada,16663.91
+52,1,Mochila Escolar,21217.2
+53,18,Chaleco Acolchado,4445.62
+54,4,Ojotas Playeras,13616.26
+55,4,Set de Acuarelas,18618.97
+56,0,Soporte para Auto,40224.29
+57,16,Toalla de Playa,42586.38
+58,0,Ventilador de Pie,41381.29
+59,13,Bolígrafo Azul,28549.31
+60,6,Termo Acero,5419.64
+61,11,"Tablet 10""",45654.77
+62,8,"Monitor 24""",33674.06
+63,18,Linterna Recargable,14362.1
+64,9,Pulsera Fitness,2155.99
+65,18,Short Deportivo,41164.73
+66,19,Memoria USB 64GB,13348.22
+67,16,Cortina Blackout,5431.55
+68,8,Sombrero Panamá,19425.21
+69,17,Batería Externa,39526.66
+70,19,Marcador Fluorescente,35869.91
+71,2,Cartuchera Grande,1117.82
+72,7,Guantes Táctiles,48494.22
+73,12,Mouse Inalámbrico,37333.34
+74,15,Campera Impermeable,13762.7
+75,13,Cargador Inalámbrico,2118.61
+76,10,Calculadora Científica,37197.92
+77,18,Tabla de Picar,32007.49
+78,2,Silla Ergonómica,31675.56
+79,5,Extensor de Señal,33681.85
+80,1,Destornillador Multipunta,11813.97
+81,14,Batidor Manual,31584.22
+82,2,Parlante Portátil,6418.32
+83,12,Regla Flexible,1326.25
+84,15,Falda Plisada,16099.58
+85,3,Taza Térmica,23046.91
+86,6,Sartén Antiadherente,10936.48
+87,14,Aspiradora Robot,30504.19
+88,16,Vestido Casual,49496.32
+89,16,Disco SSD 1TB,45705.37
+90,3,Cuchillo Chef,40440.08
+91,14,Funda Antigolpes,6390.79
+92,7,Teclado Mecánico,23778.28
+93,15,Smartphone 5G,7968.27
+94,12,Café Premium,34276.92
+95,10,Tostadora Digital,38235.56
+96,19,Licuadora de Mano,43879.91
+97,7,Procesadora de Alimentos,8557.67
+98,14,Compás Metálico,37038.45
+99,16,Set de Herramientas,13181.29

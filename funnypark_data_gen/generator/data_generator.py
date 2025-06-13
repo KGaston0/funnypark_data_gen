@@ -148,6 +148,50 @@ def generate_value(dtype, col_name=None):
     else:
         return faker.word()[:8]
 
+def generar_producto_csv(
+    path='output/facturacion_1/producto.csv',
+    num_productos=100,
+    num_subcategorias=20
+):
+    nombres = [
+        "Café Premium", "Taza Decorada", "Bolígrafo Azul", "Cuaderno A5", "Mochila Urbana",
+        "Auriculares Bluetooth", "Lámpara LED", "Mouse Inalámbrico", "Teclado Mecánico", "Silla Ergonómica",
+        "Monitor 24\"", "Disco SSD 1TB", "Memoria USB 64GB", "Cargador Rápido", "Batería Externa",
+        "Botella Térmica", "Agenda 2024", "Camiseta Deportiva", "Zapatillas Running", "Gorra Bordada",
+        "Parlante Portátil", "Reloj Inteligente", "Pulsera Fitness", "Cartera de Cuero", "Lentes de Sol",
+        "Cinturón Casual", "Campera Impermeable", "Guantes Táctiles", "Bufanda Polar", "Sombrero Panamá",
+        "Set de Herramientas", "Taladro Eléctrico", "Destornillador Multipunta", "Linterna Recargable", "Cinta Métrica",
+        "Juego de Sábanas", "Almohada Viscoelástica", "Colcha Reversible", "Toalla de Playa", "Cortina Blackout",
+        "Jarra Eléctrica", "Tostadora Digital", "Licuadora de Mano", "Procesadora de Alimentos", "Freidora de Aire",
+        "Plancha a Vapor", "Aspiradora Robot", "Ventilador de Pie", "Calefactor Cerámico", "Purificador de Aire",
+        "Cámara Web HD", "Micrófono USB", "Trípode Ajustable", "Foco Inteligente", "Enchufe WiFi",
+        "Router Dual Band", "Extensor de Señal", "Tablet 10\"", "Smartphone 5G", "Cargador Inalámbrico",
+        "Soporte para Auto", "Funda Antigolpes", "Protector de Pantalla", "Cable USB-C", "Adaptador HDMI",
+        "Juego de Ollas", "Sartén Antiadherente", "Cuchillo Chef", "Tabla de Picar", "Batidor Manual",
+        "Taza Térmica", "Termo Acero", "Mate Imperial", "Bombilla Premium", "Azucarera Vintage",
+        "Camiseta Básica", "Pantalón Chino", "Short Deportivo", "Medias Algodón", "Camisa Formal",
+        "Vestido Casual", "Falda Plisada", "Blusa Estampada", "Sweater de Lana", "Chaleco Acolchado",
+        "Zapatos de Cuero", "Sandalias Urbanas", "Botines Outdoor", "Ojotas Playeras", "Mochila Escolar",
+        "Cartuchera Grande", "Lapicera Gel", "Marcador Fluorescente", "Regla Flexible", "Compás Metálico",
+        "Calculadora Científica", "Agenda Escolar", "Libro de Notas", "Cuaderno de Dibujo", "Set de Acuarelas"
+    ]
+    if num_productos > len(nombres):
+        raise ValueError("No hay suficientes nombres únicos para la cantidad de productos solicitada.")
+    nombres_unicos = random.sample(nombres, num_productos)
+    subcategoria_ids = list(range(num_subcategorias))
+    data = []
+    for id_producto, descripcion in enumerate(nombres_unicos):
+        id_subcategoria = random.choice(subcategoria_ids)
+        precio_actual = round(random.uniform(1000, 50000), 2)
+        data.append({
+            "id_producto": id_producto,
+            "id_subcategoria": id_subcategoria,
+            "descripcion": descripcion,
+            "precio_actual": precio_actual
+        })
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    df = pd.DataFrame(data)
+    df.to_csv(path, index=False)
 def generate_table_data(table_name, columns, num_rows):
     data = []
     for _ in range(num_rows):

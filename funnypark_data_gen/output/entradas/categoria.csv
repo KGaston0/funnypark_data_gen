@@ -1,20 +1,20 @@
 codigo_categoria,descripcion_categoria
-1,Edición coleccionista
-2,Producto importado
-3,Producto nacional
-4,Apto para niños
-5,Edición especial temporada
-6,Presentación económica
-7,Producto de alta calidad
-8,Edición digital
-9,Producto de alta calidad
-10,Formato familiar
-11,Producto de alta calidad
-12,Edición exclusiva
-13,Producto importado
-14,Edición limitada
+1,Producto de alta calidad
+2,Producto de alta calidad
+3,Producto artesanal
+4,Edición limitada numerada
+5,Ideal para eventos
+6,Ideal para eventos
+7,Edición digital
+8,Apto para niños
+9,Edición aniversario
+10,Producto recomendado
+11,Edición especial temporada
+12,Presentación económica
+13,Producto de alta calidad
+14,Duradero y confiable
 15,Producto importado
-16,Producto importado
-17,Edición limitada
-18,Duradero y confiable
-19,Apto para niños
+16,Edición digital
+17,Producto recomendado
+18,Edición exclusiva
+19,Edición coleccionista
