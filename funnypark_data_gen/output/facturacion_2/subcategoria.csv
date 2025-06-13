@@ -1,101 +1,21 @@
-cod_subcat,cod_cat,desc
-99,46,earum
-59,28,pariatur
-53,24,aut
-61,77,repellen
-70,5,expedita
-49,60,providen
-79,13,iste
-30,93,distinct
-98,76,repellat
-38,13,eveniet
-63,55,facere
-21,24,harum
-88,66,odit
-26,33,error
-23,71,tenetur
-74,59,occaecat
-53,46,nisi
-3,32,fugit
-35,73,at
-86,31,iure
-26,15,esse
-7,22,odio
-92,94,perspici
-48,93,providen
-6,26,ducimus
-42,63,laborum
-50,97,soluta
-33,14,aperiam
-27,79,vitae
-98,26,necessit
-53,34,libero
-77,66,perferen
-41,8,possimus
-46,4,ducimus
-89,10,autem
-41,47,qui
-28,45,officiis
-11,62,fugiat
-76,45,sunt
-51,57,nulla
-13,23,non
-14,60,cumque
-87,96,quis
-18,95,natus
-65,70,nesciunt
-75,24,molestia
-35,65,cumque
-9,70,quas
-65,21,animi
-50,23,beatae
-85,50,nulla
-52,32,esse
-26,39,maiores
-94,29,ea
-31,35,repudian
-70,57,repudian
-55,77,quibusda
-64,36,eaque
-71,36,nemo
-47,100,voluptat
-3,62,numquam
-66,14,culpa
-82,52,dolor
-86,15,harum
-39,74,animi
-22,75,amet
-18,45,accusant
-82,23,nulla
-4,65,harum
-40,23,numquam
-85,71,nulla
-57,94,quam
-41,75,rerum
-7,12,praesent
-39,81,reiciend
-81,79,dolorem
-5,88,ut
-98,99,sequi
-52,45,ex
-76,21,amet
-65,31,nihil
-73,10,aspernat
-25,98,soluta
-79,29,a
-42,16,est
-84,52,laudanti
-23,12,eius
-23,50,expedita
-70,54,atque
-56,59,alias
-98,42,quidem
-53,76,pariatur
-4,65,ducimus
-36,63,nam
-98,5,ad
-36,56,ducimus
-54,37,aperiam
-67,17,mollitia
-9,11,cupidita
-72,86,itaque
+id_subcategoria,id_categoria,descripcion
+0,15,Uso profesional
+1,19,Incluye accesorios
+2,12,Diseño innovador
+3,5,Edición especial
+4,18,Bajo consumo
+5,16,Alta demanda
+6,10,Garantía extendida
+7,14,Ideal para eventos
+8,11,Presentación económica
+9,12,Fácil de usar
+10,2,Resistente al agua
+11,11,Ecológico
+12,8,Material reciclado
+13,11,Edición limitada
+14,9,Apto para niños
+15,5,Compacto y ligero
+16,16,Duradero y confiable
+17,5,Producto de alta calidad
+18,17,Versión premium
+19,12,Fácil mantenimiento

@@ -266,6 +266,34 @@ def generar_empleados_entradas_csv(path="output/entradas/empleado.csv", num_empl
     df = pd.DataFrame(empleados)
     df.to_csv(path, index=False)
 
+import random
+import os
+import pandas as pd
+
+def generar_subcategoria_csv(path="output/facturacion_1/subcategoria.csv", num_subcategorias=20):
+    descripciones = [
+        "Ideal para eventos", "Edición limitada", "Duradero y confiable",
+        "Presentación económica", "Producto de alta calidad",
+        "Ecológico", "Diseño innovador", "Fácil de usar", "Compacto y ligero",
+        "Alta demanda", "Versión premium", "Apto para niños", "Resistente al agua",
+        "Garantía extendida", "Edición especial", "Material reciclado",
+        "Bajo consumo", "Fácil mantenimiento", "Incluye accesorios", "Uso profesional"
+    ]
+    if num_subcategorias > len(descripciones):
+        raise ValueError("No hay suficientes descripciones únicas para la cantidad de subcategorías solicitada.")
+    descripciones_unicas = random.sample(descripciones, num_subcategorias)
+    data = []
+    for id_subcategoria, descripcion in enumerate(descripciones_unicas):
+        id_categoria = random.randint(1, 19)
+        data.append({
+            "id_subcategoria": id_subcategoria,
+            "id_categoria": id_categoria,
+            "descripcion": descripcion
+        })
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    df = pd.DataFrame(data)
+    df.to_csv(path, index=False)
+
 def generar_empleados_csv(path="output/rrhh/empleado.csv", num_empleados=100):
     empleados = []
     for codigo in range(1, num_empleados + 1):

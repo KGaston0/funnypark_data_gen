@@ -11,7 +11,8 @@ from generator.data_generator import (
     generar_item_venta_csv,
     generar_telefonos_escuela_csv,
     generar_tipo_visita_csv,
-    generar_ventas_csv, generar_telefonos_empleado_csv
+    generar_ventas_csv, generar_telefonos_empleado_csv,
+    generar_subcategoria_csv
 )
 
 def load_sql_file(path):
@@ -26,6 +27,7 @@ special_generators = {
     "telefono_escuela": (generar_telefonos_escuela_csv, "especial telefono_escuela"),
     "tipo_visita": (generar_tipo_visita_csv, "especial tipo_visita"),
     "venta": (generar_ventas_csv, "especial venta"),
+    "subcategoria": (generar_subcategoria_csv, "especial subcategoria")
 }
 
 def main():
