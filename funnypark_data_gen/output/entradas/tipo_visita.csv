@@ -1,20 +1,20 @@
 codigo_tipo_visita,descripcion_tipo_visita,arancel_por_alumno,codigo_categoria
-0,Visita escolar,11659.85,13
-1,Visita guiada,22619.71,19
-2,Visita libre,41757.1,2
-3,Visita corporativa,31247.78,4
-4,Visita familiar,34439.91,10
-5,Visita especial,47783.59,15
-6,Visita técnica,29224.17,11
-7,Visita de inspección,33068.59,10
-8,Visita de capacitación,12519.25,8
-9,Visita institucional,8751.79,3
-10,Visita cultural,25787.91,6
-11,Visita recreativa,46892.77,18
-12,Visita científica,7418.28,3
-13,Visita artística,20266.59,15
-14,Visita nocturna,48848.28,3
-15,Visita temática,48501.8,11
-16,Visita internacional,34754.14,10
-17,Visita local,34145.2,15
-18,Visita privada,48523.97,16
+0,Visita escolar,29406.21,10
+1,Visita guiada,8627.65,6
+2,Visita libre,47578.02,4
+3,Visita corporativa,10046.72,11
+4,Visita familiar,10169.1,19
+5,Visita especial,27755.55,17
+6,Visita técnica,22808.65,14
+7,Visita de inspección,41331.78,8
+8,Visita de capacitación,15714.78,8
+9,Visita institucional,3874.5,2
+10,Visita cultural,13880.25,6
+11,Visita recreativa,8583.76,3
+12,Visita científica,5825.08,5
+13,Visita artística,20557.86,16
+14,Visita nocturna,24477.05,6
+15,Visita temática,35358.9,11
+16,Visita internacional,22542.39,5
+17,Visita local,28339.42,15
+18,Visita privada,1599.86,16

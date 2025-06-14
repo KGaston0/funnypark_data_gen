@@ -7,13 +7,14 @@ from generator.data_generator import (
     generar_escuelas_csv,
     generar_categorias_csv,
     generar_empleados_csv,
+    generar_empleados_rrhh_csv,  # Importa la función para rrhh
     generar_item_venta_csv,
     generar_telefonos_escuela_csv,
     generar_tipo_visita_csv,
     generar_ventas_csv,
     generar_telefonos_empleado_csv,
     generar_subcategoria_csv,
-    generar_producto_csv  # <-- Agrega esto
+    generar_producto_csv
 )
 
 def load_sql_file(path):
@@ -23,13 +24,13 @@ def load_sql_file(path):
 special_generators = {
     "escuela": (generar_escuelas_csv, "especial escuelas"),
     "categoria": (generar_categorias_csv, "especial categorias"),
-    "empleado": (generar_empleados_csv, "especial empleados"),
+    "empleado": (None, "especial empleados"),  # Se decide en el main
     "item_venta": (generar_item_venta_csv, "especial item_venta"),
     "telefono_escuela": (generar_telefonos_escuela_csv, "especial telefono_escuela"),
     "tipo_visita": (generar_tipo_visita_csv, "especial tipo_visita"),
     "venta": (generar_ventas_csv, "especial venta"),
     "subcategoria": (generar_subcategoria_csv, "especial subcategoria"),
-    "producto": (generar_producto_csv, "especial producto")  # <-- Agrega esto
+    "producto": (generar_producto_csv, "especial producto")
 }
 
 def main():
@@ -52,7 +53,11 @@ def main():
                 if key == "venta":
                     func(output_file, NUM_ROWS_PER_TABLE)
                 elif key == "empleado":
-                    legajos = func(output_file, NUM_ROWS_PER_TABLE)
+                    # Selecciona la función según el sistema
+                    if system_name == "rrhh":
+                        legajos = generar_empleados_rrhh_csv(output_file)
+                    else:
+                        legajos = generar_empleados_csv(output_file)
                     generar_telefonos_empleado_csv(
                         os.path.join(system_folder, "telefono_empleado.csv"),
                         legajos,

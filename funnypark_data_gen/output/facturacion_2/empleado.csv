@@ -1,101 +1,101 @@
-id,nombre,apellido,direccion,sueldo,horas_capacitacion,fecha_ingreso,id_local
-1,Mateo,Rodríguez,Avenida Chubut N° 993,39075.02,111,2023-02-25,10
-2,Luis,García,Blv. La Pampa N° 474,13013.96,9,2023-12-24,2
-3,Mateo,Gómez,Calle 5 N° 1476,45576.97,118,2021-05-16,8
-4,Juan,Gómez,Avenida Omar Nuñez N° 719,30553.28,177,2022-02-12,9
-5,Juan,López,Avenida 4 N° 669,3861.53,128,2022-03-11,7
-6,Mateo,Pérez,Calle Salta N° 5564,48911.7,119,2015-09-22,1
-7,Valentina,Pérez,Avenida San Miguel de Tucumán N° 65,47901.95,85,2021-04-21,5
-8,Juan,Rodríguez,Av. 5 N° 351,31007.16,6,2024-10-31,5
-9,Camila,Pérez,Diagonal G. Brown N° 347,37702.16,172,2023-10-24,9
-10,Camila,Rodríguez,Camino Merlo N° 4253,31946.97,38,2022-04-12,6
-11,Lucas,Rodríguez,Blv. Salta N° 163,15489.39,127,2019-07-02,2
-12,Mateo,Rodríguez,Diagonal 1 N° 539,9662.96,175,2024-11-25,4
-13,Mateo,García,Avenida 3 N° 79,13830.19,84,2021-04-04,8
-14,Sofía,Gómez,Av. 2 N° 877,18095.57,2,2025-04-25,3
-15,Mateo,López,Camino J.J. Castelli N° 732,31213.3,163,2020-06-05,2
-16,Sofía,Fernández,Calle Entre Ríos N° 21,9502.15,132,2018-02-23,7
-17,Ana,García,Boulevard Salta N° 784,19632.4,21,2022-12-23,3
-18,Pedro,Gómez,Camino Merlo N° 41,36712.87,108,2019-04-23,4
-19,Pedro,Martínez,Av. San Martin N° 440,15490.25,58,2019-07-06,7
-20,Ana,López,Avenida 1 N° 9732,4327.8,174,2020-11-06,8
-21,Lucas,Pérez,Camino San Martin N° 962,41053.67,88,2021-05-19,6
-22,Pedro,Sánchez,Av. 5 N° 63,46406.45,12,2020-03-30,1
-23,Ana,Sánchez,Av. 9 N° 27,41697.8,186,2023-06-06,7
-24,María,Rodríguez,Av. 6 N° 5848,18477.7,112,2016-04-25,6
-25,Lucas,García,Avenida Rawson N° 586,9336.41,97,2016-01-22,7
-26,Sofía,Gómez,Calle Mar del Plata N° 3770,36665.11,96,2022-03-05,2
-27,Ana,Pérez,Diagonal J.J. Castelli N° 542,1765.0,66,2020-11-03,6
-28,Camila,Rodríguez,Blv. Formosa N° 4664,34654.51,148,2016-02-15,6
-29,Camila,Martínez,Calle San Miguel de Tucumán N° 7362,47150.91,69,2017-01-11,5
-30,Mateo,Pérez,Calle Río Negro N° 37,8548.98,23,2015-07-21,3
-31,María,Martínez,Calle San Juan N° 964,9072.79,100,2017-10-25,7
-32,Ana,Martínez,Calle Santa Fe N° 194,20497.44,86,2019-08-18,8
-33,Ana,Sánchez,Boulevard 2 N° 7969,3831.92,83,2020-06-08,1
-34,Camila,Pérez,Avenida Misiones N° 297,28494.82,30,2022-04-22,8
-35,Pedro,Rodríguez,Camino San Luis N° 9092,44294.62,78,2024-02-23,5
-36,Sofía,Martínez,Calle Posadas N° 98,45844.63,69,2019-05-09,3
-37,Sofía,Rodríguez,Calle Alem N° 2073,10281.44,180,2020-09-10,5
-38,Luis,Martínez,Avenida 5 N° 8979,5550.8,138,2024-09-25,10
-39,Juan,Gómez,Avenida Posadas N° 1110,8785.66,0,2024-01-30,4
-40,Lucas,Pérez,Avenida G. Brown N° 4752,22978.06,105,2023-02-26,10
-41,Lucas,Pérez,Av. Malvinas Argentinas N° 339,36789.94,172,2022-01-07,10
-42,Lucas,García,Avenida 102 A N° 133,24529.37,149,2021-11-09,3
-43,Mateo,Gómez,Calle 9 N° 3041,12551.91,61,2018-03-29,8
-44,Juan,Pérez,Calle Ciudad Autónoma de Buenos Aires N° 185,22374.54,166,2020-05-01,2
-45,Sofía,Sánchez,Camino Omar Nuñez N° 765,47089.58,123,2023-11-02,9
-46,Camila,López,Avenida 9 N° 81,27980.21,98,2024-04-20,6
-47,Ana,Gómez,Diagonal Catamarca N° 733,9536.35,22,2017-06-15,10
-48,Sofía,Pérez,Boulevard Chubut N° 893,49568.62,154,2022-11-09,5
-49,Camila,Martínez,Av. 2 N° 572,5493.21,150,2022-04-24,4
-50,Sofía,López,Calle Tucumán N° 748,40916.0,57,2016-05-21,9
-51,María,Fernández,Avenida Corrientes N° 5089,22955.27,193,2019-01-20,6
-52,Juan,Martínez,Av. 1 N° 41,45374.37,6,2025-05-07,5
-53,Juan,García,Calle San Luis N° 348,12562.89,34,2017-05-15,1
-54,Juan,Pérez,Avenida Mitre N° 2655,13260.43,47,2017-02-14,3
-55,Sofía,Martínez,Calle 6 N° 436,45507.68,119,2022-07-25,7
-56,Pedro,Pérez,Calle Pte. Perón N° 78,12574.19,196,2018-09-06,2
-57,Valentina,Gómez,Diagonal Neuquén N° 161,17669.87,42,2017-08-27,9
-58,Lucas,Sánchez,Calle J.M. de Rosas N° 5231,36079.99,147,2020-09-16,5
-59,Pedro,Rodríguez,Avenida Santiago del Estero N° 185,10450.56,147,2019-04-27,2
-60,Luis,Martínez,Diagonal J.M. de Rosas N° 811,31349.08,146,2024-10-18,7
-61,Ana,Rodríguez,Avenida J.M. de Rosas N° 2587,44321.61,51,2019-09-25,9
-62,Sofía,Fernández,Avenida 4 N° 6225,20282.39,18,2022-03-25,4
-63,María,Sánchez,Avenida Chilecito N° 594,29240.0,8,2019-10-07,9
-64,Sofía,Gómez,Avenida Neuquén N° 261,34098.63,52,2020-12-27,3
-65,Juan,López,Av. Santiago del Estero N° 1430,14960.45,64,2024-11-15,4
-66,Luis,Martínez,Calle La Rioja N° 266,26574.66,80,2021-01-02,3
-67,Lucas,Martínez,Calle Ushuaia N° 231,1800.76,2,2017-07-26,4
-68,Valentina,Fernández,Avenida Chaco N° 4317,45818.31,92,2024-09-14,9
-69,Camila,Fernández,Calle Mitre N° 763,7804.56,197,2016-10-08,10
-70,Camila,Sánchez,Av. J.M. de Rosas N° 873,12287.98,130,2020-07-29,5
-71,Pedro,López,Camino La Pampa N° 6027,10549.61,22,2022-02-09,4
-72,Pedro,Gómez,Diagonal Catamarca N° 980,41293.68,44,2023-08-16,9
-73,Juan,Fernández,Blv. Neuquén N° 29,9720.5,145,2016-04-21,8
-74,Sofía,Gómez,Avenida J.B. Alberdi N° 225,13376.31,0,2017-07-09,5
-75,Ana,López,Av. Mendoza N° 208,28856.05,114,2018-08-29,1
-76,Ana,Sánchez,Diagonal 2 N° 969,8554.64,149,2018-02-18,1
-77,Pedro,Gómez,Diag. 1 N° 965,22051.41,101,2017-11-30,4
-78,Mateo,Pérez,Av. 4 N° 61,3321.62,196,2022-10-23,10
-79,Ana,García,Av. San Martin N° 15,29190.26,198,2019-03-20,2
-80,Valentina,López,Calle Saavedra N° 927,40003.06,45,2019-08-08,7
-81,Camila,Pérez,Blv. G. Brown N° 895,30875.47,8,2016-06-02,5
-82,Sofía,Gómez,Av. 9 N° 11,19355.7,147,2024-08-04,10
-83,Juan,López,Av. La Pampa N° 28,36533.45,12,2023-12-08,10
-84,Lucas,Martínez,Avenida J.J. Castelli N° 1815,9890.21,59,2017-02-03,4
-85,Pedro,Rodríguez,Diagonal La Rioja N° 479,43815.03,4,2018-10-26,3
-86,Pedro,Martínez,Calle Córdoba N° 2599,41960.15,77,2025-03-11,1
-87,Sofía,Rodríguez,Boulevard Formosa N° 23,11523.68,72,2019-08-05,10
-88,Camila,Gómez,Camino Saavedra N° 39,17917.78,181,2019-07-15,7
-89,Luis,Gómez,Diagonal San Luis N° 625,27180.92,162,2019-11-28,10
-90,Ana,Rodríguez,Camino 3 N° 236,49343.69,168,2022-07-30,1
-91,Lucas,Pérez,Avenida Ushuaia N° 67,48803.9,131,2016-10-29,2
-92,Lucas,Pérez,Calle Tucumán N° 21,29191.04,19,2017-12-10,9
-93,Luis,Gómez,Boulevard J.B. Alberdi N° 98,2287.72,125,2023-10-19,5
-94,Ana,Sánchez,Av. Malvinas Argentinas N° 534,49764.86,182,2020-06-02,4
-95,Sofía,Gómez,Camino 5 N° 46,13944.81,192,2015-12-19,4
-96,Pedro,García,Diag. Rivadavia N° 237,36430.9,56,2018-11-15,10
-97,Valentina,Fernández,Calle Santiago del Estero N° 12,14187.15,140,2017-02-15,8
-98,Valentina,Sánchez,Camino Alvear N° 8435,18028.25,197,2018-04-07,6
-99,Juan,Fernández,Av. Buenos Aires N° 911,47785.97,102,2019-08-03,1
-100,Juan,García,Diagonal 2 N° 39,12702.47,123,2017-09-15,6
+id,nombre,apellido
+1,Sofía,Sánchez
+2,María,Fernández
+3,Valentina,Gómez
+4,Mateo,Rodríguez
+5,Juan,Pérez
+6,María,García
+7,Ana,López
+8,Pedro,Gómez
+9,Valentina,Pérez
+10,Juan,Rodríguez
+11,Valentina,Gómez
+12,María,Pérez
+13,Pedro,Martínez
+14,Lucas,Sánchez
+15,Lucas,Sánchez
+16,Ana,Pérez
+17,María,Pérez
+18,Mateo,García
+19,Luis,Martínez
+20,Luis,Pérez
+21,Juan,Sánchez
+22,Sofía,López
+23,Valentina,Martínez
+24,Mateo,Pérez
+25,Luis,Martínez
+26,Sofía,Fernández
+27,Valentina,García
+28,María,García
+29,María,Pérez
+30,Juan,Martínez
+31,Mateo,Fernández
+32,Lucas,Rodríguez
+33,Juan,Sánchez
+34,Lucas,García
+35,Pedro,Fernández
+36,Camila,Pérez
+37,María,Gómez
+38,Luis,Sánchez
+39,Pedro,Pérez
+40,Juan,Gómez
+41,Juan,Rodríguez
+42,Mateo,Fernández
+43,Ana,Martínez
+44,Juan,Gómez
+45,Camila,Pérez
+46,Sofía,López
+47,Mateo,Fernández
+48,Lucas,Gómez
+49,Ana,García
+50,Mateo,Martínez
+51,Mateo,Pérez
+52,Lucas,López
+53,Mateo,López
+54,Pedro,López
+55,Luis,López
+56,Ana,García
+57,Lucas,López
+58,Sofía,Rodríguez
+59,Camila,Rodríguez
+60,Luis,López
+61,Camila,García
+62,Sofía,Sánchez
+63,Sofía,Martínez
+64,Mateo,Fernández
+65,Luis,García
+66,Camila,Pérez
+67,Camila,Sánchez
+68,Pedro,Fernández
+69,Juan,Sánchez
+70,Pedro,García
+71,Pedro,López
+72,Juan,Rodríguez
+73,Camila,López
+74,Sofía,Gómez
+75,Sofía,Rodríguez
+76,Pedro,Rodríguez
+77,Juan,López
+78,Lucas,Martínez
+79,Camila,Pérez
+80,Luis,Martínez
+81,Sofía,Martínez
+82,Valentina,Martínez
+83,Camila,García
+84,Valentina,Rodríguez
+85,Pedro,Rodríguez
+86,Valentina,López
+87,Camila,Pérez
+88,Pedro,Rodríguez
+89,Luis,Rodríguez
+90,Valentina,Martínez
+91,Juan,Fernández
+92,Valentina,Martínez
+93,Camila,Martínez
+94,Valentina,López
+95,María,Fernández
+96,Sofía,Rodríguez
+97,Ana,García
+98,Luis,García
+99,Ana,Rodríguez
+100,Ana,Fernández

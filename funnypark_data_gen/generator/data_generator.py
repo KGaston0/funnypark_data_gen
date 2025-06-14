@@ -287,8 +287,8 @@ def generar_ventas_csv(path="output/entradas/venta.csv", num_ventas=100):
     data = []
     for nro_ticket in range(num_ventas):
         fecha = pd.Timestamp('2024-06-01') + pd.to_timedelta(random.randint(0, 365), unit='D')
-        codigo_empleado = random.randint(1, 100)
-        codigo_escuela = random.randint(1, 5)  # Ahora solo valores del 1 al 5
+        codigo_empleado = random.randint(1, 50)  # Solo empleados del 1 al 50
+        codigo_escuela = random.randint(1, 5)
         data.append({
             "nro_ticket": nro_ticket,
             "fecha": fecha.date(),
@@ -313,7 +313,36 @@ def generar_empleados_entradas_csv(path="output/entradas/empleado.csv", num_empl
 import random
 import os
 import pandas as pd
+def generar_empleados_rrhh_csv(path="output/rrhh/empleado.csv"):
+    empleados = []
+    for codigo in range(1, 301):
+        empleados.append({
+            "id": codigo,
+            "nombre": random.choice(nombres),
+            "apellido": random.choice(apellidos),
+            "direccion": faker.address(),
+            "sueldo": random.randint(50000, 200000),
+            "horas": random.randint(20, 40),
+            "fecha_ingreso": faker.date_between(start_date='-10y', end_date='today'),
+            "id_local": random.randint(1, 10)
+        })
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    df = pd.DataFrame(empleados)
+    df["direccion"] = df["direccion"].astype(str).str.replace(r"\s*\n\s*", " ", regex=True)
+    df.to_csv(path, index=False)
 
+    # Dividir en 3 archivos de 100 empleados (sin id_local)
+    for i in range(3):
+        df_100 = df.iloc[i*100:(i+1)*100].drop(columns=["id_local"])
+        path_100 = f"output/rrhh/empleados_100_{i+1}.csv"
+        df_100.to_csv(path_100, index=False)
+        # Por cada 100, generar 2 archivos de 50 solo con id, nombre, apellido
+        for j in range(2):
+            df_50 = df_100.iloc[j*50:(j+1)*50][["id", "nombre", "apellido"]]
+            path_50 = f"output/rrhh/empleados_100_{i+1}_50_{j+1}.csv"
+            df_50.to_csv(path_50, index=False)
+
+    return [e["id"] for e in empleados]
 def generar_subcategoria_csv(path="output/facturacion_1/subcategoria.csv", num_subcategorias=20):
     descripciones = [
         "Ideal para eventos", "Edición limitada", "Duradero y confiable",
@@ -344,18 +373,12 @@ def generar_empleados_csv(path="output/rrhh/empleado.csv", num_empleados=100):
         empleados.append({
             "id": codigo,
             "nombre": random.choice(nombres),
-            "apellido": random.choice(apellidos),
-            "direccion": faker.street_address(),
-            "sueldo": round(random.uniform(1000, 50000), 2),
-            "horas_capacitacion": random.randint(0, 200),
-            "fecha_ingreso": (datetime.now() - timedelta(days=random.randint(0, 3650))).strftime("%Y-%m-%d"),
-            "id_local": random.choice(locales)
+            "apellido": random.choice(apellidos)
         })
     os.makedirs(os.path.dirname(path), exist_ok=True)
     df = pd.DataFrame(empleados)
     df.to_csv(path, index=False)
     return [e["id"] for e in empleados]
-
 def generar_telefonos_empleado_csv(path="output/rrhh/telefono_empleado.csv", legajos=None, telefonos_por_empleado=1):
     if legajos is None:
         raise ValueError("Se requiere la lista de legajos de empleados.")
@@ -370,6 +393,15 @@ def generar_telefonos_empleado_csv(path="output/rrhh/telefono_empleado.csv", leg
     df = pd.DataFrame(data)
     df.to_csv(path, index=False)
 
+    # Dividir en 3 archivos de 100 teléfonos cada uno
+    total = len(df)
+    size = total // 3
+    for i in range(3):
+        start = i * size
+        end = (i + 1) * size if i < 2 else total
+        df_100 = df.iloc[start:end]
+        path_100 = f"output/rrhh/telefonos_100_{i+1}.csv"
+        df_100.to_csv(path_100, index=False)
 def generar_categorias_csv(path="output/entradas/categoria.csv", num_categorias=20):
     codigos_categoria = range(1, num_categorias)
     descripciones = [
@@ -416,25 +448,28 @@ special_generators = {
     "venta": generar_ventas_csv,
 }
 
-def generar_tipo_item_venta_csv(path="output/entradas/tipo_item_venta.csv", num_items=100):
+def generar_item_venta_csv(path="output/entradas/item_venta.csv", num_items=100):
     import random
     import os
     import pandas as pd
 
     data = []
-    for codigo in range(num_items):
-        descripcion = f"Item {codigo}"
-        precio = round(random.uniform(500, 10000), 2)
-        codigo_tipo_visita = random.randint(0, 18)  # 0 a 18 para 19 tipos
+    for nro_ticket in range(num_items):
+        codigo_tipo_visita = random.randint(0, 18)
+        cantidad_alumnos_reales = random.randint(1, 10)
+        arancel_por_alumno = round(random.uniform(2000, 50000), 2)
+        codigo_empleado = random.randint(1, 50)  # Solo empleados del 1 al 50
         data.append({
-            "codigo_tipo_item_venta": codigo,
-            "descripcion_tipo_item_venta": descripcion,
-            "precio": precio,
-            "codigo_tipo_visita": codigo_tipo_visita
+            "nro_ticket": nro_ticket,
+            "codigo_tipo_visita": codigo_tipo_visita,
+            "cantidad_alumnos_reales": cantidad_alumnos_reales,
+            "arancel_por_alumno": arancel_por_alumno,
+            "codigo_empleado": codigo_empleado
         })
     os.makedirs(os.path.dirname(path), exist_ok=True)
     df = pd.DataFrame(data)
     df.to_csv(path, index=False)
+
 
 def generar_csv_especial(tabla, path, num_rows=None):
     key = tabla.lower()

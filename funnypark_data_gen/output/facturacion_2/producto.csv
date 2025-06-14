@@ -1,101 +1,101 @@
 id_producto,id_subcategoria,descripcion,precio_actual
-0,0,Protector de Pantalla,8490.81
-1,13,Cuaderno A5,35965.89
-2,3,Bombilla Premium,38376.0
-3,3,Mochila Urbana,34588.4
-4,1,Juego de Ollas,41613.59
-5,15,Cuaderno de Dibujo,36189.92
-6,7,Calefactor Cerámico,31033.85
-7,13,Gorra Bordada,33674.76
-8,8,Colcha Reversible,26241.01
-9,3,Zapatos de Cuero,13981.81
-10,15,Zapatillas Running,32312.06
-11,10,Azucarera Vintage,3991.08
-12,9,Camiseta Deportiva,6893.05
-13,7,Micrófono USB,3429.25
-14,19,Bufanda Polar,43058.56
-15,1,Jarra Eléctrica,32357.25
-16,15,Sweater de Lana,44410.41
-17,6,Cargador Rápido,31170.91
-18,6,Freidora de Aire,32590.28
-19,15,Taza Decorada,30423.6
-20,14,Juego de Sábanas,1647.82
-21,1,Pantalón Chino,36187.89
-22,2,Medias Algodón,45423.73
-23,14,Camiseta Básica,4570.01
-24,9,Plancha a Vapor,25674.66
-25,13,Reloj Inteligente,21924.88
-26,8,Lentes de Sol,42623.74
-27,7,Trípode Ajustable,4483.82
-28,16,Agenda 2024,29199.7
-29,12,Almohada Viscoelástica,15701.47
-30,19,Cámara Web HD,24566.04
-31,4,Sandalias Urbanas,6729.67
-32,16,Botines Outdoor,12168.45
-33,17,Adaptador HDMI,12888.61
-34,12,Purificador de Aire,34624.8
-35,1,Camisa Formal,36462.95
-36,15,Cable USB-C,9626.27
-37,19,Mate Imperial,10250.37
-38,2,Enchufe WiFi,21487.82
-39,19,Router Dual Band,14629.03
-40,15,Cinta Métrica,24615.63
-41,19,Libro de Notas,2401.31
-42,10,Lámpara LED,17941.42
-43,12,Taladro Eléctrico,27818.58
-44,17,Auriculares Bluetooth,6284.87
-45,7,Lapicera Gel,33369.1
-46,10,Botella Térmica,20318.31
-47,8,Cartera de Cuero,35259.25
-48,10,Cinturón Casual,3573.91
-49,13,Agenda Escolar,28981.36
-50,15,Foco Inteligente,12183.49
-51,1,Blusa Estampada,16663.91
-52,1,Mochila Escolar,21217.2
-53,18,Chaleco Acolchado,4445.62
-54,4,Ojotas Playeras,13616.26
-55,4,Set de Acuarelas,18618.97
-56,0,Soporte para Auto,40224.29
-57,16,Toalla de Playa,42586.38
-58,0,Ventilador de Pie,41381.29
-59,13,Bolígrafo Azul,28549.31
-60,6,Termo Acero,5419.64
-61,11,"Tablet 10""",45654.77
-62,8,"Monitor 24""",33674.06
-63,18,Linterna Recargable,14362.1
-64,9,Pulsera Fitness,2155.99
-65,18,Short Deportivo,41164.73
-66,19,Memoria USB 64GB,13348.22
-67,16,Cortina Blackout,5431.55
-68,8,Sombrero Panamá,19425.21
-69,17,Batería Externa,39526.66
-70,19,Marcador Fluorescente,35869.91
-71,2,Cartuchera Grande,1117.82
-72,7,Guantes Táctiles,48494.22
-73,12,Mouse Inalámbrico,37333.34
-74,15,Campera Impermeable,13762.7
-75,13,Cargador Inalámbrico,2118.61
-76,10,Calculadora Científica,37197.92
-77,18,Tabla de Picar,32007.49
-78,2,Silla Ergonómica,31675.56
-79,5,Extensor de Señal,33681.85
-80,1,Destornillador Multipunta,11813.97
-81,14,Batidor Manual,31584.22
-82,2,Parlante Portátil,6418.32
-83,12,Regla Flexible,1326.25
-84,15,Falda Plisada,16099.58
-85,3,Taza Térmica,23046.91
-86,6,Sartén Antiadherente,10936.48
-87,14,Aspiradora Robot,30504.19
-88,16,Vestido Casual,49496.32
-89,16,Disco SSD 1TB,45705.37
-90,3,Cuchillo Chef,40440.08
-91,14,Funda Antigolpes,6390.79
-92,7,Teclado Mecánico,23778.28
-93,15,Smartphone 5G,7968.27
-94,12,Café Premium,34276.92
-95,10,Tostadora Digital,38235.56
-96,19,Licuadora de Mano,43879.91
-97,7,Procesadora de Alimentos,8557.67
-98,14,Compás Metálico,37038.45
-99,16,Set de Herramientas,13181.29
+0,13,Aspiradora Robot,10095.88
+1,0,Linterna Recargable,25091.45
+2,1,Taza Decorada,33159.05
+3,0,Taza Térmica,13703.64
+4,1,Bolígrafo Azul,11756.26
+5,19,Zapatos de Cuero,41686.07
+6,6,Cargador Rápido,12030.5
+7,2,Botella Térmica,29667.67
+8,10,Cartuchera Grande,37290.23
+9,12,Marcador Fluorescente,44328.38
+10,12,Zapatillas Running,40844.92
+11,7,Funda Antigolpes,39822.19
+12,0,Enchufe WiFi,10277.2
+13,0,Bombilla Premium,8199.13
+14,2,Azucarera Vintage,43965.2
+15,1,Camisa Formal,24822.72
+16,5,Parlante Portátil,48944.46
+17,3,Botines Outdoor,6965.28
+18,1,Vestido Casual,5517.92
+19,8,Camiseta Deportiva,45553.14
+20,3,Mate Imperial,46440.81
+21,17,Bufanda Polar,37553.34
+22,5,Protector de Pantalla,8046.57
+23,10,Guantes Táctiles,2121.95
+24,6,Juego de Sábanas,28872.87
+25,14,Café Premium,40015.12
+26,1,Medias Algodón,16266.36
+27,12,Tostadora Digital,45643.58
+28,11,Set de Acuarelas,8135.37
+29,19,Trípode Ajustable,11956.09
+30,16,Freidora de Aire,1905.63
+31,16,Batidor Manual,16212.51
+32,13,Almohada Viscoelástica,46793.75
+33,1,Tabla de Picar,29581.81
+34,8,Adaptador HDMI,40387.21
+35,13,Cinturón Casual,25548.53
+36,14,Lentes de Sol,46636.93
+37,8,Libro de Notas,11904.19
+38,10,Lapicera Gel,28969.79
+39,1,Camiseta Básica,7085.09
+40,11,Lámpara LED,22247.46
+41,5,Soporte para Auto,44640.1
+42,13,Cuchillo Chef,46865.34
+43,13,Termo Acero,12482.99
+44,8,Mochila Escolar,15212.34
+45,15,Batería Externa,5114.64
+46,8,Pulsera Fitness,5108.1
+47,12,Taladro Eléctrico,43528.54
+48,18,Smartphone 5G,25653.65
+49,18,Cámara Web HD,19493.57
+50,11,Cable USB-C,38186.25
+51,16,Cuaderno A5,8281.3
+52,19,Campera Impermeable,22167.45
+53,2,Purificador de Aire,44325.45
+54,15,Agenda 2024,22056.85
+55,9,Cortina Blackout,48557.27
+56,11,Blusa Estampada,22290.16
+57,0,Extensor de Señal,43959.62
+58,0,Agenda Escolar,10168.73
+59,5,Juego de Ollas,31395.31
+60,2,Cuaderno de Dibujo,28490.31
+61,11,Silla Ergonómica,2348.67
+62,13,Calculadora Científica,2694.0
+63,7,Mouse Inalámbrico,1460.59
+64,3,Compás Metálico,35000.68
+65,3,Teclado Mecánico,25713.07
+66,13,"Tablet 10""",44853.44
+67,12,Memoria USB 64GB,23547.4
+68,7,Chaleco Acolchado,44182.45
+69,7,Cartera de Cuero,29928.21
+70,17,Ventilador de Pie,4486.89
+71,1,Sandalias Urbanas,30443.52
+72,10,Foco Inteligente,16945.72
+73,3,Short Deportivo,17106.6
+74,10,Jarra Eléctrica,18557.13
+75,16,Falda Plisada,29797.54
+76,15,Micrófono USB,2990.14
+77,3,Mochila Urbana,31110.28
+78,5,Gorra Bordada,24164.68
+79,18,Toalla de Playa,19042.76
+80,16,Ojotas Playeras,46236.47
+81,15,Procesadora de Alimentos,38428.17
+82,10,Licuadora de Mano,27561.61
+83,18,Set de Herramientas,10158.74
+84,7,Destornillador Multipunta,26156.27
+85,19,Reloj Inteligente,21693.33
+86,3,Sombrero Panamá,37351.78
+87,4,Auriculares Bluetooth,36523.59
+88,8,Disco SSD 1TB,45634.15
+89,7,Calefactor Cerámico,15770.93
+90,6,Plancha a Vapor,19618.83
+91,3,Cargador Inalámbrico,3025.31
+92,10,Colcha Reversible,18973.35
+93,15,Router Dual Band,41063.36
+94,13,Cinta Métrica,28556.65
+95,3,Sweater de Lana,26718.89
+96,1,Regla Flexible,35116.71
+97,17,Sartén Antiadherente,46061.12
+98,18,"Monitor 24""",15311.67
+99,7,Pantalón Chino,40171.04

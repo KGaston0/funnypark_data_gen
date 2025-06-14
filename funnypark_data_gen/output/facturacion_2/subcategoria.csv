@@ -1,21 +1,21 @@
 id_subcategoria,id_categoria,descripcion
-0,9,Apto para niños
-1,4,Edición limitada
-2,3,Compacto y ligero
-3,3,Resistente al agua
-4,2,Garantía extendida
-5,13,Presentación económica
-6,3,Versión premium
-7,13,Fácil de usar
-8,1,Edición especial
-9,14,Material reciclado
-10,10,Alta demanda
-11,1,Producto de alta calidad
-12,4,Duradero y confiable
-13,7,Fácil mantenimiento
-14,2,Incluye accesorios
-15,3,Ecológico
-16,19,Ideal para eventos
-17,10,Bajo consumo
-18,7,Diseño innovador
-19,17,Uso profesional
+0,16,Producto de alta calidad
+1,12,Edición limitada
+2,19,Alta demanda
+3,15,Diseño innovador
+4,11,Fácil mantenimiento
+5,19,Versión premium
+6,1,Apto para niños
+7,2,Ideal para eventos
+8,3,Uso profesional
+9,3,Presentación económica
+10,17,Bajo consumo
+11,5,Material reciclado
+12,10,Duradero y confiable
+13,1,Resistente al agua
+14,12,Ecológico
+15,13,Compacto y ligero
+16,13,Garantía extendida
+17,15,Fácil de usar
+18,11,Edición especial
+19,13,Incluye accesorios

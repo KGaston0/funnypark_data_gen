@@ -1,0 +1,101 @@
+id,nombre,apellido,direccion,sueldo,horas,fecha_ingreso
+101,Mateo,Sánchez,"Av. Río Gallegos N° 809 Ushuaia 9410, Tierra del Fuego",193992,31,2016-07-17
+102,Sofía,Fernández,"Camino La Rioja N° 6795 Dto. 6 Mendoza 5500, Mendoza",99724,34,2023-12-03
+103,Mateo,Gómez,"Avenida San Luis N° 1851 Piso 6 Dto. 9 Comodoro Rivadavia 9000, Chubut",119351,30,2020-08-03
+104,Sofía,Gómez,"Av. La Pampa N° 999 Oficina 5 Mendoza 5500, Mendoza",177156,40,2023-09-15
+105,María,Rodríguez,"Avenida Saavedra N° 4070 Torre 3 Dto. 8 Neuquén 8300, Neuquén",79958,21,2020-12-18
+106,Camila,Rodríguez,"Boulevard J.J. Castelli N° 32 Dto. 5 Santa Fe 3000, Santa Fe",81760,37,2022-01-27
+107,Ana,Gómez,"Av. Santiago del Estero N° 520 Santiago del Estero 4200, Santiago del Estero",136146,33,2015-06-16
+108,Sofía,Gómez,"Avenida La Rioja N° 31 Posadas 3300, Misiones",99658,20,2017-04-23
+109,Lucas,Gómez,"Calle 5 N° 545 Posadas 3300, Misiones",94238,24,2023-03-04
+110,Lucas,Martínez,"Avenida Santa Cruz N° 118 Paraná 3100, Entre Ríos",90193,28,2015-09-06
+111,Pedro,Martínez,"Diag. La Plata N° 89 Dto. 4 Neuquén 8300, Neuquén",182318,39,2017-12-13
+112,Mateo,Fernández,"Av. San Luis N° 457 Torre 7 Dto. 1 Neuquén 8300, Neuquén",114042,20,2023-01-26
+113,Ana,Sánchez,"Avenida 6 N° 626 Corrientes 3400, Corrientes",54572,29,2016-09-03
+114,María,López,"Diag. Río Negro N° 493 Salta 4400, Salta",66132,29,2024-10-08
+115,Luis,López,"Avenida Santa Fe N° 7282 Oficina 30 San Juan 5400, San Juan",154098,32,2024-06-22
+116,Lucas,Rodríguez,"Boulevard Omar Nuñez N° 819 Oficina 19 San Salvador de Jujuy 4600, Jujuy",62757,23,2017-12-18
+117,Valentina,López,"Av. Santiago del Estero N° 985 Salta 4400, Salta",156122,24,2021-06-01
+118,Sofía,Rodríguez,"Diagonal San Luis N° 97 Piso 6 Dto. 7 Constitución 1004, Ciudad Autónoma de Buenos Aires",159313,21,2017-12-18
+119,María,Gómez,"Diagonal Belgrano N° 312 Oficina 9 La Rioja 5300, La Rioja",198685,23,2018-09-14
+120,María,Sánchez,"Calle Omar Nuñez N° 771 Viedma 8500, Río Negro",109240,31,2022-05-13
+121,María,Gómez,"Av. 4 N° 525 Chilecito 5360, La Rioja",133871,37,2019-07-31
+122,Valentina,Fernández,"Avenida Córdoba N° 939 San Ferando del Valle de Catamarca 4700, Catamarca",135999,30,2022-05-20
+123,Camila,López,"Boulevard Alem N° 6834 Rosario 2000, Santa Fe",189329,21,2021-11-08
+124,Sofía,Rodríguez,"Diag. Formosa N° 572 La Rioja 5300, La Rioja",77521,30,2018-10-21
+125,Camila,Fernández,"Diagonal Paraná N° 481 Torre 7 Dto. 6 Posadas 3300, Misiones",104886,32,2020-12-11
+126,Pedro,Rodríguez,"Diagonal Salta N° 230 Viedma 8500, Río Negro",51895,37,2019-12-11
+127,Camila,Rodríguez,"Calle 7 N° 1849 Piso 8 Dto. 6 La Plata 1900, Buenos Aires",98282,21,2019-10-29
+128,María,Pérez,"Avenida Tucumán N° 98 Oficina 5 Paraná 3100, Entre Ríos",144395,32,2019-04-10
+129,Ana,Sánchez,"Diag. San Luis N° 305 Santa Rosa 6300, La Pampa",142975,37,2022-09-20
+130,Mateo,Sánchez,"Diagonal 8 N° 352 Ushuaia 9410, Tierra del Fuego",170704,29,2023-09-22
+131,Valentina,Rodríguez,"Diagonal Chaco N° 779 Piso 9 Dto. 5 Salta 4400, Salta",82321,36,2024-05-14
+132,María,García,"Boulevard Santa Fe N° 849 Torre 9 Dto. 8 Río Gallegos 9400, Santa Cruz",107871,36,2016-05-28
+133,Mateo,Pérez,"Calle Omar Nuñez N° 2487 Resistencia 3500, Chaco",65199,27,2016-10-17
+134,María,Gómez,"Calle Rosario N° 68 La Rioja 5300, La Rioja",72912,24,2016-12-18
+135,Sofía,Martínez,"Av. San Juan N° 775 Paraná 3100, Entre Ríos",132388,36,2023-05-27
+136,Ana,Gómez,"Diagonal Rivadavia N° 879 Mendoza 5500, Mendoza",91299,27,2017-05-01
+137,Mateo,Pérez,"Boulevard 135 B N° 2545 Mendoza 5500, Mendoza",163849,37,2015-08-26
+138,Ana,Rodríguez,"Camino 7 N° 68 Oficina 77 Córdoba 5000, Córdoba",187044,27,2023-06-05
+139,Sofía,López,"Calle Mendoza N° 29 Santiago del Estero 4200, Santiago del Estero",103901,20,2017-06-15
+140,María,Pérez,"Diagonal Formosa N° 28 Local 14 Constitución 1004, Ciudad Autónoma de Buenos Aires",72231,25,2017-09-17
+141,Valentina,Pérez,"Diag. Catamarca N° 147 Posadas 3300, Misiones",91822,34,2018-09-08
+142,Mateo,López,"Avenida 6 N° 6957 Oficina 45 Córdoba 5000, Córdoba",60470,35,2017-01-12
+143,Lucas,Pérez,"Camino Santa Cruz N° 249 Constitución 1004, Ciudad Autónoma de Buenos Aires",184198,31,2021-01-31
+144,Juan,Fernández,"Calle 5 N° 2260 Oficina 5 Resistencia 3500, Chaco",122306,27,2020-06-19
+145,Valentina,López,"Avenida San Miguel de Tucumán N° 42 San Miguel de Tucumán 4000, Tucumán",189850,25,2023-04-17
+146,Juan,Fernández,"Diag. Alem N° 51 La Plata 1900, Buenos Aires",199471,25,2022-08-21
+147,Lucas,Martínez,"Diagonal San Luis N° 49 La Rioja 5300, La Rioja",100443,26,2021-11-24
+148,Lucas,Gómez,"Calle 5 N° 1296 San Ferando del Valle de Catamarca 4700, Catamarca",86827,30,2021-04-21
+149,Ana,García,"Calle 120 B N° 3281 Neuquén 8300, Neuquén",150243,34,2019-02-18
+150,Mateo,García,"Av. San Martin N° 226 Dto. 4 Neuquén 8300, Neuquén",97008,26,2022-07-20
+151,Sofía,Sánchez,"Boulevard San Martin N° 9572 Río Gallegos 9400, Santa Cruz",58888,31,2015-09-24
+152,Luis,Rodríguez,"Calle Bahía Blanca N° 6236 Santa Rosa 6300, La Pampa",160721,26,2018-12-01
+153,Juan,López,"Avenida Omar Nuñez N° 922 Neuquén 8300, Neuquén",61501,34,2015-09-26
+154,Valentina,García,"Avenida La Rioja N° 580 Dto. 8 Resistencia 3500, Chaco",174932,27,2020-04-30
+155,María,Rodríguez,"Diagonal Santa Fe N° 76 Oficina 3 Viedma 8500, Río Negro",90004,27,2023-02-06
+156,Mateo,Fernández,"Blv. 2 N° 658 La Rioja 5300, La Rioja",152729,21,2021-01-18
+157,Sofía,Martínez,"Avenida Río Negro N° 686 Piso 2 Dto. 4 Posadas 3300, Misiones",53017,20,2017-11-27
+158,Valentina,García,"Diagonal Entre Ríos N° 966 Comodoro Rivadavia 9000, Chubut",154637,38,2021-05-31
+159,Luis,López,"Boulevard J.M. de Rosas N° 198 Torre 2 Dto. 2 Córdoba 5000, Córdoba",194064,31,2024-01-09
+160,Sofía,Fernández,"Avenida 3 N° 405 Posadas 3300, Misiones",161235,35,2020-05-01
+161,Camila,Rodríguez,"Boulevard 3 N° 728 Dto. 8 San Juan 5400, San Juan",78198,31,2015-12-14
+162,Sofía,Martínez,"Av. Merlo N° 174 Piso 3 Dto. 3 San Miguel de Tucumán 4000, Tucumán",132124,28,2023-12-29
+163,Camila,López,"Calle Posadas N° 7554 Piso 9 Dto. 6 Rosario 2000, Santa Fe",135912,20,2019-07-25
+164,Sofía,López,"Diagonal Corrientes N° 212 Córdoba 5000, Córdoba",113867,23,2021-03-22
+165,Juan,Fernández,"Av. Córdoba N° 44 San Ferando del Valle de Catamarca 4700, Catamarca",84175,23,2017-11-18
+166,María,Sánchez,"Diagonal Santiago del Estero N° 396 Dto. 8 Santiago del Estero 4200, Santiago del Estero",110647,24,2023-08-13
+167,Ana,Pérez,"Avenida Mitre N° 431 La Plata 1900, Buenos Aires",197984,24,2023-12-21
+168,Mateo,García,"Avenida San Juan N° 41 Mar del Plata 7600, Buenos Aires",60355,30,2016-03-19
+169,Luis,Rodríguez,"Camino San Juan N° 396 Local 10 Santa Fe 3000, Santa Fe",87459,34,2022-05-15
+170,Sofía,Pérez,"Blv. Neuquén N° 92 Oficina 85 San Luis 5700, San Luis",158603,30,2016-07-26
+171,Juan,Martínez,"Camino Constitución N° 496 San Salvador de Jujuy 4600, Jujuy",83187,25,2022-03-25
+172,María,Martínez,"Calle 3 N° 149 Oficina 5 Viedma 8500, Río Negro",171582,40,2024-01-29
+173,Luis,Pérez,"Calle 9 N° 403 San Juan 5400, San Juan",90121,38,2016-08-17
+174,María,Fernández,"Diagonal Mar del Plata N° 14 Local 2 Merlo 5881, San Luis",55806,32,2019-08-28
+175,Ana,García,"Blv. Güemes N° 792 Comodoro Rivadavia 9000, Chubut",108874,34,2020-04-15
+176,Pedro,García,"Avenida Saavedra N° 289 Oficina 79 Corrientes 3400, Corrientes",89517,35,2021-05-25
+177,Luis,López,"Diag. Corrientes N° 1987 Salta 4400, Salta",90167,32,2015-07-11
+178,Luis,López,"Av. 5 N° 13 Piso 6 Dto. 5 San Salvador de Jujuy 4600, Jujuy",138208,22,2017-08-18
+179,Luis,García,"Av. Omar Nuñez N° 608 Dto. 4 Santa Rosa 6300, La Pampa",71052,26,2018-01-29
+180,Valentina,Fernández,"Calle Santa Rosa N° 7065 Piso 4 Dto. 5 Bahía Blanca 8000, Buenos Aires",191691,32,2021-06-18
+181,Valentina,García,"Avenida 6 N° 68 Resistencia 3500, Chaco",100336,40,2018-12-11
+182,Pedro,Martínez,"Calle Formosa N° 887 Piso 7 Dto. 5 Córdoba 5000, Córdoba",135082,37,2020-12-17
+183,Pedro,Gómez,"Av. 8 N° 951 Santa Fe 3000, Santa Fe",114643,28,2019-08-07
+184,María,García,"Calle 2 N° 160 Dto. 4 San Miguel de Tucumán 4000, Tucumán",134417,20,2019-07-06
+185,Pedro,Fernández,"Boulevard La Pampa N° 781 Piso 7 Dto. 7 Viedma 8500, Río Negro",163869,28,2020-02-21
+186,Lucas,López,"Avenida 198 Bis N° 462 Local 6 Posadas 3300, Misiones",62992,28,2024-08-13
+187,Mateo,Sánchez,"Avenida Río Negro N° 6724 Mar del Plata 7600, Buenos Aires",86368,25,2017-12-07
+188,Juan,Gómez,"Av. Misiones N° 719 Oficina 54 Santiago del Estero 4200, Santiago del Estero",195874,32,2024-04-20
+189,María,Sánchez,"Av. Mitre N° 6284 San Miguel de Tucumán 4000, Tucumán",165335,40,2020-01-30
+190,Luis,Sánchez,"Diagonal Salta N° 1889 Santiago del Estero 4200, Santiago del Estero",95539,28,2015-07-12
+191,Valentina,García,"Diagonal San Ferando del Valle de Catamarca N° 2556 Chilecito 5360, La Rioja",94869,23,2017-12-23
+192,Valentina,Gómez,"Av. 5 N° 67 Local 3 Paraná 3100, Entre Ríos",112656,40,2022-08-16
+193,Luis,Fernández,"Av. Neuquén N° 278 Torre 6 Dto. 3 Paraná 3100, Entre Ríos",196954,33,2017-01-06
+194,Luis,Fernández,"Av. Rivadavia N° 99 Viedma 8500, Río Negro",135433,37,2025-03-29
+195,Lucas,Rodríguez,"Calle 2 N° 7699 Local 1 Santiago del Estero 4200, Santiago del Estero",180274,27,2015-06-30
+196,Camila,Fernández,"Blv. Entre Ríos N° 69 Torre 9 Dto. 6 Rosario 2000, Santa Fe",185496,39,2023-07-16
+197,Ana,Gómez,"Av. Salta N° 6787 Local 1 Salta 4400, Salta",67871,38,2025-04-09
+198,Lucas,García,"Avenida Tucumán N° 6064 Local 14 Córdoba 5000, Córdoba",182508,28,2022-03-02
+199,María,Pérez,"Diagonal Misiones N° 82 Formosa 3600, Formosa",181651,30,2020-04-11
+200,Mateo,Fernández,"Avenida La Pampa N° 494 Rosario 2000, Santa Fe",155062,22,2025-03-24
